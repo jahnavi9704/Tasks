@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2 - Navigation Bars</title>
+    <style>
+      .nav-bars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .vertical-navbar {
+        border: 1px solid black;
+        width: 260px;
+        margin: 10px;
+        padding: 10px;
+        background-color: bisque;
+      }
+      .vertical-navbar ul {
+        width: 250px;
+        padding: 0;
+      }
+      .vertical-navbar li {
+        background-color: rgba(126, 208, 244, 0.79);
+        color: rgb(103, 103, 223);
+        font-size: 24px;
+        list-style: none;
+        padding: 10px;
+      }
+      .vertical-navbar li:hover {
+        color: #fff;
+        background-color: orange;
+        cursor: pointer;
+      }
+      .horizontal-navbar {
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+        height: fit-content;
+        background-color: bisque;
+      }
+
+      .horizontal-navbar ul {
+        background-color: rgb(211, 207, 207);
+        padding-left: 0;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+      }
+
+      .horizontal-navbar li {
+        list-style: none;
+        display: inline;
+        padding: 10px;
+        border-right: 1px blue solid;
+        color: rgb(103, 103, 223);
+        font-size: 24px;
+      }
+
+      .horizontal-navbar li:hover {
+        color: #fff;
+        background-color: grey;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-bars">
+      <div class="vertical-navbar">
+        <h2>Vertical Navigation Bar</h2>
+        <ul>
+          <li>Home</li>
+          <li>Java</li>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+
+      <div class="horizontal-navbar">
+        <h2>Horizontal Navigation Bar</h2>
+        <ul>
+          <li>Home</li>
+          <li>Java</li>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

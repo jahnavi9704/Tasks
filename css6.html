@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK6</title>
+    <style>
+      .profile {
+        width: 40%;
+        margin: 40px auto;
+        border: 2px #bcf3c2 solid;
+        background-color: #cffde1;
+        padding: 35px;
+      }
+      /* Add hover effect */
+
+      .input {
+        width: 100%;
+        padding: 10px;
+        font-size: 17px;
+      }
+      .subdiv {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      label {
+        font-size: 22px;
+        margin-bottom: 15px;
+      }
+      .login {
+        background-color: #a4dc8b;
+        color: cornsilk;
+        font-size: 20px;
+        font-weight: 500;
+        width: 103%;
+        border-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="profile">
+        <img
+          style="width: 40%; height: 40%; margin: 10px auto; display: block"
+          src="https://cdn.pixabay.com/photo/2021/01/04/10/41/icon-5887126_960_720.png"
+        />
+
+        <label for="username">Username</label>
+        <input
+          class="input"
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter Username"
+        />
+        <br /><br />
+        <label for="password">Password</label>
+        <input
+          class="input"
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Password"
+        />
+        <br /><br />
+        <button type="submit" class="input login">Login</button>
+        <input type="checkbox" id="remember" name="remember" />
+        <label for="remember" style="font-size: 18px">Remember me</label>
+        <div class="subdiv">
+          <div>
+            <button
+              type="button"
+              style="
+                padding: 10px;
+                background-color: red;
+                border-style: none;
+                font-size: 17px;
+                border-radius: 4px;
+              "
+            >
+              Cancel
+            </button>
+          </div>
+          <div style="font-size: 18px"><a href="#">Forgot password?</a></div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

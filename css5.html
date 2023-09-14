@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK5</title>
+    <style>
+      .main {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        gap: 40px;
+        background-color: #ffd0d0;
+      }
+      .navbar {
+        margin-right: 20px;
+        margin-top: 25px;
+      }
+      .navbar ul li {
+        list-style: none;
+        margin: 6px;
+        padding: 11px;
+        border-right: 25px #cffde1 solid;
+        padding-right: 45px;
+
+        font-size: 25px;
+        transition: backgroung-color 0.3s;
+        background-color: #fff;
+      }
+      .navbar ul li:hover {
+        padding: 15px;
+      }
+      .navbar ul li a {
+        text-decoration: none;
+      }
+      .content h1 {
+        font-size: 45px;
+        color: #7c73c0;
+      }
+      .content p {
+        font-size: 25px;
+        color: #7c73c0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <ul>
+          <li><a href="#">Home Page</a></li>
+          <li><a href="#">Musings</a></li>
+          <li><a href="">My town</a></li>
+          <li><a href="">Links</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>My first styled page</h1>
+        <p>Welcome to my styled page!</p>
+        <p>
+          It lacks images , but atleast it has style.And it has links,even if
+          they don't go anywhere...
+        </p>
+        <p class="border">
+          There should be more here, but I don't know what yet.
+        </p>
+        <p style="border-top: thin dotted; padding-top: 10px">
+          Made 12 September 2023 by myself.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

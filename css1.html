@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK1</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px black solid;
+        border-radius: 14px;
+        font-size: 20px;
+      }
+      th,
+      td {
+        padding: 4px;
+      }
+      table {
+        background-color: rgb(149, 217, 249);
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+      }
+      th {
+        text-align: center;
+      }
+      .main-container {
+        width: 400px;
+        margin: 40px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+      }
+      .div1,
+      .div2,
+      .div3,
+      .div4,
+      .div5,
+      .div6,
+      .div7,
+      .div8,
+      .div9 {
+        width: 130px;
+        height: 80px;
+        border: 4px rgba(38, 201, 38, 0.804) solid;
+      }
+      .div1,
+      .div2,
+      .div4,
+      .div6 {
+        border-radius: 15px;
+      }
+      .div3,
+      .div6 {
+        border-radius: 30px;
+      }
+      .div5,
+      .div8 {
+        border-radius: 5px;
+      }
+      .div7 {
+        border-radius: 70%;
+      }
+      .div9 {
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jahnavi</td>
+        <td>Pusuluri</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>Bhuvana</td>
+        <td>Raparla</td>
+        <td>19</td>
+      </tr>
+      <tr>
+        <td>Siva</td>
+        <td>Pusuluri</td>
+        <td>13</td>
+      </tr>
+    </table>
+    <div class="main-container">
+      <div class="div1"></div>
+      <div class="div2"></div>
+      <div class="div3"></div>
+      <div class="div4"></div>
+      <div class="div5"></div>
+      <div class="div6"></div>
+      <div class="div7"></div>
+      <div class="div8"></div>
+      <div class="div9"></div>
+    </div>
+  </body>
+</html>

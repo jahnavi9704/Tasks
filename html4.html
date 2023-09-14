@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK4</title>
+    <style>
+      body {
+        background-color: #90b77d;
+      }
+      form {
+        border: 1px black solid;
+        width: fit-content;
+        margin: 20px auto;
+        background-color: #f2f7a1;
+      }
+      table,
+      tr,
+      td {
+        font-size: 22px;
+        padding: 10px;
+      }
+      table {
+        margin: auto;
+      }
+      input,
+      select,
+      textarea {
+        padding: 5px;
+        font-size: 17px;
+        margin-left: 140px;
+      }
+      button {
+        padding: 6px;
+        font-size: 17px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="task4.html">
+      <table>
+        <tr>
+          <td>Full Name:</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Username:</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td>Re Password:</td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td><textarea rows="6" cols="21"></textarea></td>
+        </tr>
+        <tr>
+          <td>Age:</td>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td>Gender:</td>
+          <td>
+            <select>
+              <option selected>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button onClick="alert('Details are registered successfully')">
+              Save
+            </button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
